@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bree+Serif&family=Crete+Round:ital@1&family=Poppins:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Alata', sans-serif; */
+body,html{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+input:focus,text:focus,select:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+/* tailwind base */
+.hoveres{
+    @apply hidden;
+}
+
+.hovered:hover .hoveres{
+    @apply flex-col
+}
+.flex-colo{
+    @apply flex flex-col justify-center items-center;
+}
+
+.flex-rows{
+    @apply flex flex-row justify-center items-center;
+}
+
+.flex-btn{
+    @apply flex justify-between items-center;
+}
+
+.zIndex{
+    z-index: 1000;
+}
+.logofont{
+    font-family: 'Righteous', cursive;
+}
+.linear-bg{
+    background: linear-gradient(269.82deg,#07091c00 0.17%, #080a1ad6 99.87%);
+}
