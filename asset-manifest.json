@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gear-five/static/css/main.6f4b5415.css",
+    "main.js": "/gear-five/static/js/main.78c666be.js",
+    "static/media/BlackGear5.mp4": "/gear-five/static/media/BlackGear5.ec17e15569f478251171.mp4",
+    "index.html": "/gear-five/index.html",
+    "main.6f4b5415.css.map": "/gear-five/static/css/main.6f4b5415.css.map",
+    "main.78c666be.js.map": "/gear-five/static/js/main.78c666be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f4b5415.css",
+    "static/js/main.78c666be.js"
+  ]
+}
